@@ -10,7 +10,6 @@ def message(message):
 
 s=0
 while s<=3600:
-   print s,'sec' 
    time.sleep(1)
    s+=1
    if s==3600:
